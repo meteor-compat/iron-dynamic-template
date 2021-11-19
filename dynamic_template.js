@@ -23,7 +23,7 @@ var typeOf = function (value) {
  *
  */
 DynamicTemplate = function (options) {
-  this._id = Random.id(); 
+  this._id = Random.id();
   this.options = options = options || {};
   this._template = options.template;
   this._defaultTemplate = options.defaultTemplate;
@@ -562,8 +562,8 @@ DynamicTemplate.findLookupHostWithProperty = function (view, key) {
       if (host && get(host, key)) {
         return host;
       }
-    } 
-    
+    }
+
     view = view.parentView;
   }
 
@@ -587,8 +587,8 @@ DynamicTemplate.findLookupHostWithHelper = function (view, helperKey) {
       if (host && get(host, 'constructor', '_helpers', helperKey)) {
         return host;
       }
-    } 
-    
+    }
+
     view = view.parentView;
   }
 

@@ -22,7 +22,7 @@
 
 <template name="DynamicParentDataOnTemplateDynamic">
   {{! rename to Template.dynamic in 0.9.4}}
-  {{> UI.dynamic template='_DynamicParentDataOnTemplateDynamic' data=getData}}
+  {{> Template.dynamic template='_DynamicParentDataOnTemplateDynamic' data=getData}}
 </template>
 
 <template name="_DynamicParentDataOnTemplateDynamic">
@@ -48,7 +48,7 @@ NoData
 </template>
 
 <template name="WithData">
-WithData-{{this}} 
+WithData-{{this}}
 </template>
 
 <template name="WithDataAndParentData">

@@ -10,6 +10,7 @@ Package.onUse(function (api) {
 
   api.use('blaze');
   api.use('underscore');
+  api.use('ui');
   api.use('jquery@1.11.9 || 3.0.0');
   api.use('tracker');
   api.use('reactive-var');
