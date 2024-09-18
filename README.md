@@ -2,6 +2,12 @@ Iron.DynamicTemplate
 ===============================================================
 Dynamic templates and data contexts for Meteor.
 
+## Current version
+
+`compat:dynamic-template@2.0.0`
+
+We changed this package organization name as we don't have access to publish in the `iron` organization.
+
 ## Templates and Helpers
 
 ```html
