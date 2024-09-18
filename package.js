@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'iron:dynamic-template',
+  name: 'compat:dynamic-template',
   summary: 'Dynamically create and update templates and their data contexts.',
   version: '2.0.0',
   git: 'https://github.com/meteor-compat/iron-dynamic-template'
